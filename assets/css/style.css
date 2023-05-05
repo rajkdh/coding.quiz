@@ -18,9 +18,41 @@ body{
     0 0 102px #0fa,
     0 0 151px #0fa;
 }
-.high-score-screen ul{
-    list-style-type: none;
+.high-score-screen{
+    text-align: center;
     width: fit-content;
+    position: relative;
+    bottom: 445px;
+    padding:10px 10px;
+    align-items: center;
+    margin: ;    
+}
+.high-score{
+    padding: 0;
+}
+.scoreBoard {
+  width: fit-content;
+  list-style-type: none;
+  font-size:25px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    
+}
+.prev-game {
+    list-style-type:none;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 
@@ -85,7 +117,5 @@ cursor: pointer;
 
 }
 
-.high-score-screen{
-    background-color: white;
-}
+
 

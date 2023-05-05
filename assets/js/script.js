@@ -115,13 +115,13 @@ var getGame = function() {
     else{
         savedScore = JSON.parse(savedScore);
         for (var i = 0; i < savedScore.length; i++) {
-            var leaderBoards = document.createElement("h2");
+            var leaderBoards = document.createElement("li");
             leaderBoards.className = "scoreBoard";
-            leaderBoards.textContent = "High Score:"
+            leaderBoards.textContent = "High Score"
             highScore.appendChild(leaderBoards);
-            var previousGame = document.createElement("p");
+            var previousGame = document.createElement("li");
             previousGame.className = "prev-game";
-            previousGame.textContent = savedScore[i].name + " : " + savedScore[i].total;
+            previousGame.textContent = savedScore[i].name   +" " +"-" + savedScore[i].total + "-";
             highScore.appendChild(previousGame);
             
         }
