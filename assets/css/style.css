@@ -4,9 +4,8 @@ body{
 .the-quiz{
     background-color: mintcream;
     text-align: center;
-    width: 500px;
-    height: 150px;
-    padding:2px 0;
+    width: fit-content;
+    padding:2px 20px;
     margin: 0 auto;
     margin-top: 200px;
     border-radius: 5px;    
@@ -18,8 +17,13 @@ body{
     0 0 92px #0fa,
     0 0 102px #0fa,
     0 0 151px #0fa;
-;
 }
+.high-score-screen ul{
+    list-style-type: none;
+    width: fit-content;
+}
+
+
 .header{
     display: flex;
     justify-content: flex-end;
@@ -57,3 +61,31 @@ body{
     position: relative;
     right: 20px;
 }
+.btn-content{
+    list-style-type: none; 
+    padding: 5px;
+}
+
+.btn-quizbtn{
+    border: none;
+    font-size: 25px;
+    width: 100%;
+}
+.btn-quizbtn:hover, .btn:hover, .btn-submit{
+cursor: pointer;
+}
+.btn-quizbtn:hover{
+    background-color: #0fa;
+}
+.text-input{
+    margin:10px;
+
+}
+.btn-submit{
+
+}
+
+.high-score-screen{
+    background-color: white;
+}
+
