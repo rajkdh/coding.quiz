@@ -2,7 +2,7 @@ body{
     background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701456819.jpg');
 }
 .the-quiz{
-    background-color: white;
+    background-color: mintcream;
     text-align: center;
     width: 500px;
     height: 150px;
@@ -10,6 +10,15 @@ body{
     margin: 0 auto;
     margin-top: 200px;
     border-radius: 5px;    
+    box-shadow:   0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+;
 }
 .header{
     display: flex;
@@ -36,4 +45,8 @@ body{
       0 0 102px #0fa,
       0 0 151px #0fa;
 
+}
+.btn{
+    font-size: 15px;
+    
 }
