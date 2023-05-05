@@ -92,6 +92,7 @@ var endGame = function() {
     submit.setAttribute("type", "submit");
     submit.textContent = "Submit";
     quizContainer.appendChild(submit);
+
 }
 
 
@@ -104,7 +105,7 @@ var submitInitials = function() {
     }
     leaderBoard.push(playerScore);
     localStorage.setItem("highScores", JSON.stringify(leaderBoard));
-    
+
 }
 
 var getGame = function() {
@@ -182,7 +183,10 @@ var questions = [
     }
 ];
 
+//var submitBtn = document.getElementsByClassName("btn-submit")
+
 startButton.addEventListener("click", beginQuiz);
 quizContainer.addEventListener("click", buttonHandler);
 
 getGame();
+//submitBtn.addEventListener("click", location.reload());
