@@ -21,8 +21,8 @@ body{
 .high-score-screen{
     text-align: center;
     width: fit-content;
-    position: relative;
-    bottom: 445px;
+    position: fixed;
+    bottom: 85%;
     padding:10px 10px;
     align-items: center;
      
