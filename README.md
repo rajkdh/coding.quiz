@@ -40,13 +40,27 @@ My goal in creating this application is to provide a easier and fun way of learn
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+>Loaded quiz page:
 ![image](https://user-images.githubusercontent.com/112664790/236599286-f524365f-4b9f-4115-a1a5-bed2795e09b1.png)
 
+<br>
+<br>
+
+>After selecting the 'start' button, the quiz starts: 
 ![image](https://user-images.githubusercontent.com/112664790/236599335-64bdf70c-84b4-4c66-bd79-945cbcf743b4.png)
 
+<br>
+<br>
+
+>If the user runs out of time or completes the quiz, they are directed to submit their initials:
 ![image](https://user-images.githubusercontent.com/112664790/236599392-9e4e8b73-7369-4a84-8f3a-c217d6066b2f.png)
 
+<br>
+<br>
 
+<!-- LICENSE -->
+## License
 
-
+Distributed under the MIT License. </br>
+To see the license permissions for commercial and non-commercial use, modification, and distribution of the software, please see the full text of the license, available at https://opensource.org/licenses/MIT.
 
