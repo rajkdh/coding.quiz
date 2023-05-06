@@ -114,8 +114,18 @@ cursor: pointer;
     margin:10px;
 
 }
-.btn-submit{
+#quiz-box{
+    display:block;
+}
 
+#quiz-box input{
+    border-radius: 8px;
+}
+.btn-submit{
+    padding: 5px;
+    border:none;
+    background-color: #0fa;
+    border-radius: 8px;
 }
 
 
