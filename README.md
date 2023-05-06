@@ -40,3 +40,13 @@ My goal in creating this application is to provide a easier and fun way of learn
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+![image](https://user-images.githubusercontent.com/112664790/236599286-f524365f-4b9f-4115-a1a5-bed2795e09b1.png)
+
+![image](https://user-images.githubusercontent.com/112664790/236599335-64bdf70c-84b4-4c66-bd79-945cbcf743b4.png)
+
+![image](https://user-images.githubusercontent.com/112664790/236599392-9e4e8b73-7369-4a84-8f3a-c217d6066b2f.png)
+
+
+
+
+
